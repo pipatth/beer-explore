@@ -2,7 +2,6 @@ import pandas as pd
 import re
 import time
 import sys
-from collections import Counter
 
 def countMatchedWords(text, pos_corp, neg_corp):
     reg = re.compile("[^\w']")
