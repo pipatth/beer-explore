@@ -157,7 +157,7 @@ def to_pd_table(list_sim):
 
 def main(argv):
     df = load_all_reviews()
-    df.to_csv(argv[1])
+    df.to_csv(argv[1], index=False, encoding='utf-8')
     return
 
 if __name__ == "__main__":
